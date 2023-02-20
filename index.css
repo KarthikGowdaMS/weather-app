@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body{
+    background-color: #17141d;
+}
+.card{
+    background-color: #17141d;
+    border-color: white;
+}
+.main-heading {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+.navbar {
+  margin-bottom: 5vh;
+}
+.nav-link {
+  color: white;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.navbar ul {
+  margin-right: 2vw;
+}
+.card {
+  margin-bottom: 2vh;
+}
+.other-info{
+    margin-bottom: 20vh;;
+}
+.wind-card{
+    margin-bottom: 8px;
+}
+.form{
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media (max-width: 991.20px) {
+  .form{
+    width: 100%;
+  }
+}
