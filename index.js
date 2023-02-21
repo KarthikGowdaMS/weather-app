@@ -1,11 +1,17 @@
-var option= options;
+const options = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': '0d31a0da38msh6896e8ea884dce7p11a806jsn558df9c53ad4',
+    'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com',
+  },
+};
 
 const api_url = 
 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=';
   
 function getweather(url,city) {
     
-fetch(url+city,option).then((response) => response.json()).then((response)=>{
+fetch(url+city,options).then((response) => response.json()).then((response)=>{
 
     console.log(response);
     cityname.innerHTML = city;
